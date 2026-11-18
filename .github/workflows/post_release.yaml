@@ -21,7 +21,7 @@ jobs:
     runs-on: ${{ matrix.image }}
     if: github.repository_owner == 'fzyzcjy'
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         image:
           - windows-2022
